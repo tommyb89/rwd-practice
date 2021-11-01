@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+nav {
+  background-color: #cfe2f3;
+  height: 100px;
+}
+
+main {
+  background-color: #eeeeee;
+  height: 100px;
+}
+
+aside {
+  background-color: #d3ead3;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #container {
+    display: flex;
+  }
+}
+
+#container > * {
+  flex: 1;
+  height: 1000px;
+}
